@@ -1,0 +1,28 @@
+{
+  "bankDetail": [
+    {
+      "panNumber": "AXSPA8383",
+      "date": 10,
+      "month": "02",
+      "year": "1994"
+    },
+    {
+      "panNumber": "AXSPA661",
+      "date": "09",
+      "month": "09",
+      "year": "1997"
+    },
+    {
+      "panNumber": "AXSPA991",
+      "date": "05",
+      "month": "04",
+      "year": "1995"
+    },
+    {
+      "panNumber": "AXSPA800",
+      "date": "06",
+      "month": "05",
+      "year": "1995"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:text="S."
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/bank_accout_text"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/s"
+        android:layout_height="wrap_content"
+        android:text="@string/bank_account_step_tv"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/pan_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pan_number"
+        android:textStyle="bold"
+        android:layout_below="@+id/bank_accout_text"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/pan_number_edTv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@+id/pan_number"
+        android:padding="2dp"
+        android:background="@drawable/pannumber"
+        android:hint="@string/axspauieoe" />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:layout_below="@+id/pan_number_edTv"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:id="@+id/birthday_detail"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/birthday"
+        android:orientation="horizontal"
+        android:layout_height="100dp">
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/pan_number"
+            android:padding="10dp"
+            android:background="@drawable/pannumber"
+            android:hint="03" />
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/date"
+            android:padding="10dp"
+            android:background="@drawable/pannumber"
+            android:hint="03" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/date"
+            android:padding="10dp"
+            android:background="@drawable/pannumber"
+            android:hint="1998" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pan_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/providing_pan"
+        android:layout_below="@+id/birthday_detail"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_below="@+id/pan_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEXT"/>
+
+    <TextView
+        android:id="@+id/idont_pan_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="i don't have a PAN"
+        android:layout_below="@+id/next"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

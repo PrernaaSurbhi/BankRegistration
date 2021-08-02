@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BankRegistration</string>
+    <string name="bank_account_step_tv">First of the few steps to set\nyou up with a Bank Account</string>
+    <string name="pan_number">PAN NUMBER</string>
+    <string name="axspauieoe">AXSPAUIEOE</string>
+    <string name="birthday">BIRTHDAY</string>
+    <string name="_03">03</string>
+    <string name="providing_pan">Providing PAN Date of Birth help us find and fetch your kyc from cenetral registry from the govt of India.learn more </string>
+</resources>
